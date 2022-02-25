@@ -1,5 +1,6 @@
 import "./about.css";
 import Certificate from "../../img/certificate.jpg";
+import Ganon from "../../img/ganon.jpeg";
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
                 <div className="a-card bg"></div>
                 <div className="a-card">
                    <img
-                        src="https://images.pexels.com/photos/10443834/pexels-photo-10443834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        src={Ganon}
                         alt=""
                         className="a-img" />
                 </div>
