@@ -7,8 +7,8 @@ export const products = [
     },
 
     {
-        id: 2,
-        img: "https://github.com/jljohnson1454/screenshots/raw/main/rvng.png",
+        id: 6,
+        img: "https://raw.githubusercontent.com/jljohnson1454/screenshots/main/glampers.jpeg?token=GHSAT0AAAAAABRWNED4JJJKUNAAXS3HYUP6YRGW3MA",
         link: "https://glampers-rvng.herokuapp.com/"
     },
 
@@ -19,8 +19,8 @@ export const products = [
     },
     {
         id: 4,
-        img: "https://github.com/jljohnson1454/budget-tracker/raw/main/assets/screenshot.jpg",
-        link: "https://still-brook-60665.herokuapp.com/"
+        img: "https://github.com/jljohnson1454/run-buddy/raw/main/assets/images/screenshot.png",
+        link: "https://jljohnson1454.github.io/run-buddy/"
     },
     {
         id: 5,
@@ -29,8 +29,8 @@ export const products = [
     },
     {
         id: 6,
-        img: "https://github.com/jljohnson1454/screenshots/raw/main/notetaker.png",
-        link: "https://quiet-ridge-30059.herokuapp.com/"
+        img: "https://github.com/jljohnson1454/budget-tracker/raw/main/assets/screenshot.jpg",
+        link: "https://still-brook-60665.herokuapp.com/"
     }
 
 
