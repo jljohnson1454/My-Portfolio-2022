@@ -8,7 +8,7 @@ const ProductList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title"> Stronger Together</h1>
                 <p className="pl-desc">
-                    Below are several projects that I take pride in, as they were key in my development as an individual and team player
+                    Below are several projects created using Javascript, MERN, and OOP. They were key in my development, working as an individual and as part of a team
                     </p>
             </div>
             <div className="pl-list">

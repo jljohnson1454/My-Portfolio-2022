@@ -7,8 +7,8 @@ export const products = [
     },
 
     {
-        id: 6,
-        img: "https://raw.githubusercontent.com/jljohnson1454/screenshots/main/glampers.jpeg?token=GHSAT0AAAAAABRWNED4JJJKUNAAXS3HYUP6YRGW3MA",
+        id: 2,
+        img: "https://github.com/project-2-Glampers/RVnG/blob/main/public/assets/images/homepage2.jpg?raw=true",
         link: "https://glampers-rvng.herokuapp.com/"
     },
 
