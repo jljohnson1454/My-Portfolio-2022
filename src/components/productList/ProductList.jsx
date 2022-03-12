@@ -6,12 +6,9 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title"> Create & Inspire. It's Lama</h1>
+                <h1 className="pl-title"> Stronger Together</h1>
                 <p className="pl-desc">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Consequatur deleniti labore quibusdam quaerat, 
-                    magnam illo. Odio qui consequuntur laudantium libero 
-                    illo fugiat, rerum aspernatur et rem quia ea culpa ducimus?
+                    Below are several projects that I take pride in, as they were key in my development as an individual and team player
                     </p>
             </div>
             <div className="pl-list">
