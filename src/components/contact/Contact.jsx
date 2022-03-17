@@ -64,7 +64,7 @@ const Contact = () => {
                     alt=""
                     className="c-icon"
                     />
-                    https://www.linkedin.com/in/jacobleejohnson/
+                    <a href="https://www.linkedin.com/in/jacobleejohnson/">https://www.linkedin.com/in/jacobleejohnson/</a>
                 </div>
                 <div className="c-info-item">
                     <img
@@ -72,7 +72,7 @@ const Contact = () => {
                     alt=""
                     className="c-icon"
                     />
-                    https://tinyurl.com/bdfv3ypr
+                    <a href="https://tinyurl.com/bdfv3ypr">Resume</a>
                 </div>
 
             </div>
