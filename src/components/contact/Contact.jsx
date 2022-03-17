@@ -72,7 +72,7 @@ const Contact = () => {
                     alt=""
                     className="c-icon"
                     />
-                    https://docs.google.com/document/d/1vBfGaV3eMDT7KhSvCH7sKJgGgX8Hx0tbOCcUzm_MWXs/edit?usp=sharing
+                    https://tinyurl.com/bdfv3ypr
                 </div>
 
             </div>
