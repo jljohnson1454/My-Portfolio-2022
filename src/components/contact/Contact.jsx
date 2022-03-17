@@ -3,13 +3,27 @@ import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Address from "../../img/address.png"
 import LinkedIn from "../../img/linkedin.png"
+import Resume from "../../img/resume.png"
 import { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
+
 
 const Contact = () => {
-    const formRef = useRef()
+    const formRef = useRef();
+    const [done, setDone] = useState(false)
+    
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        emailjs.sendForm('service_vu2drx8', 'template_jfjz1oa', formRef.current, '2RBLRIRvxxs3WoV_b')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    
         
     }
 
@@ -52,6 +66,14 @@ const Contact = () => {
                     />
                     https://www.linkedin.com/in/jacobleejohnson/
                 </div>
+                <div className="c-info-item">
+                    <img
+                    src={Resume}
+                    alt=""
+                    className="c-icon"
+                    />
+                    https://docs.google.com/document/d/1vBfGaV3eMDT7KhSvCH7sKJgGgX8Hx0tbOCcUzm_MWXs/edit?usp=sharing
+                </div>
 
             </div>
         </div>
@@ -65,6 +87,7 @@ const Contact = () => {
                  <input type="text" placeholder="Email" name="user_email" />
                  <textarea rows="5" placeholder="Message" name="message" />
                  <button>Submit</button>
+                 {done && "  Thank you! I'll be reaching out shortly!"}
              </form>
         </div>
         </div>

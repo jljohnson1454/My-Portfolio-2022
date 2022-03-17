@@ -17,17 +17,21 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo perspiciatis optio sint hic repellat corporis eligendi, a similique accusantium quidem praesentium ex quam perferendis aliquam itaque dolorum et eaque amet!
+                "You step into the Road, and if you don't keep your feet, there is no knowing where you might be swept off to"
                 </p>
                 < p className="a-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aut obcaecati facere quidem nisi deserunt quam hic, nulla at quia et eos amet molestias pariatur impedit dolores a enim aliquid!
+                    JRR Tolkien could not have been more right. I procrastinated in college
+                    that I was nowhere near good enough to be a programmer, let alone have the self-discipline to
+                    upkeep the necessary skills. Flash forward ten years later, having earned a Bachelor's Degree in English and held multiple jobs, I just spent six months
+                    learning new technologies and languages, bettering not only myself but my resolve. If you need a new website, debugging, or updates to existing applications, I'm here to help!
+                    All because I took a step off the road. 
                 </p>
                 <div className="a-award">
                     <img src={Certificate} alt="" className="a-award-img" />
                     <div className="a-award-texts">
                         <h4 className="a-award-title">UT Boot Camp Certificate</h4>
                         <p className="a-award-desc">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sed enim. Accusantium nulla architecto numquam assumenda dolorum eaque? Hic eveniet aspernatur fugiat similique delectus excepturi nemo unde repellat incidunt eius!
+                            Earned from an intensive six month program at the University of Texas in Austin, TX
                         </p>
                     </div>
 
