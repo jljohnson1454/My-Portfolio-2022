@@ -7,7 +7,8 @@ const Product = ({img,link,github}) => {
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
-                <a href={github}>Github</a>
+                <a className="g-link" href={github}>Github</a>
+                <a className="s-link" href={link}>Full Site</a>
             </div>
 
             
