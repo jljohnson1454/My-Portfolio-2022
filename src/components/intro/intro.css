@@ -100,4 +100,10 @@
     .i-desc {
         display: none;
     }
+
+    .i-title-item {
+        align-items: center;
+        text-align: center;
+
+    }
 }

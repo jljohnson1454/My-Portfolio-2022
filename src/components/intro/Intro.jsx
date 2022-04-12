@@ -20,9 +20,7 @@ const Intro = () => {
                     I design and develop applications utilizing frontend and backend methods.
                 </p>
                 </div>
-                <svg>
-                    
-                </svg>
+                
                 
 
             </div>
